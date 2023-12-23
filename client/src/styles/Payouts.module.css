@@ -1,0 +1,537 @@
+.cont {
+  width: 1440px;
+  height: 922px;
+}
+.right {
+  width: 1216px;
+}
+.topRightCont {
+  border-bottom: 1px solid #d9d9d9;
+  background: white;
+  display: flex;
+  width: 1216px;
+  height: 64px;
+  padding: 12px 32px;
+  align-items: center;
+  gap: 16px;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+
+.topQcont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex: 1 0 0;
+}
+
+.qCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 94px;
+  height: 16px;
+  gap: 6px;
+}
+
+.topQIcon {
+  width: 14px;
+  height: 14px;
+  fill: black;
+}
+
+.topQText {
+  width: 74px;
+  height: 16px;
+  font-family: Galano Grotesque;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #4d4d4d;
+}
+
+.topSearchCont {
+  background: #f2f2f2;
+  display: flex;
+  width: 400px;
+  padding: 9px 16px;
+  align-items: center;
+  gap: 0px;
+  align-self: stretch;
+  border-radius: 6px;
+}
+.searchBtn {
+  border: none;
+  background-color: #f2f2f2 !important;
+}
+.searchIcon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  background-color: #f2f2f2;
+}
+
+.searchInp {
+  color: #808080;
+  background-color: #f2f2f2;
+  font-family: Galano Grotesque;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 146.667% */
+}
+
+.topMenuCont {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+}
+
+.menuCont {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.menuIcon {
+  width: 40px;
+  height: 40px;
+}
+
+/* bottom right side======> */
+
+.bottomRightCont {
+  display: flex;
+  width: 1152px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  margin: 32px;
+}
+
+.overView {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.overViewTxt {
+  color: #1a181e;
+  font-family: Galano Grotesque;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px; /* 140% */
+}
+
+.monthCont {
+  width: 137px;
+  height: 36px;
+  border-radius: 4px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.monthTxt {
+  color: #4d4d4d;
+  font-family: Galano Grotesque;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.chevronDownIcon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.totals {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.total1,
+.total11 {
+  display: flex;
+  width: 371px;
+  height: 154px;
+
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: #146eb4;
+}
+.total11 {
+  height: 154px;
+}
+.total1 {
+  padding: 20px 20px 0px 20px;
+  height: 118px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+}
+.total2,
+.total3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  flex: 1 0 0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.net {
+  width: 331px;
+  height: 78px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.nextPay {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.nextPayTxt {
+  color: white;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.nextIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+.cost {
+  color: white;
+  font-family: Galano Grotesque;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px; /* 118.75% */
+}
+
+.rightArrowIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.ordersCont {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.orders {
+  color: white;
+  font-family: Galano Grotesque;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  text-decoration-line: underline;
+}
+
+.total1BottomCont {
+  display: flex;
+  width: 370.67px;
+  padding: 8px 24px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  background: #0e4f82;
+}
+
+.total1BottomTxt1,
+.total1BottomTxt2 {
+  color: #f2f2f2;
+  font-family: Galano Grotesque;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 20px; /* 142.857% */
+}
+
+.total1BottomTxt1 {
+  font-weight: 400;
+}
+
+.total1BottomTxt2 {
+  font-weight: 500;
+}
+
+.total2Cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  padding: 20px;
+}
+
+.pendingCont {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pendingTxt {
+  color: #4d4d4d;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.rightArrClCont {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rightArrowIcon {
+  width: 8px;
+  height: 14px;
+}
+.pendingIcon {
+  width: 16px;
+  height: 16px;
+}
+.pendingIcon2 {
+  width: 14.4px;
+  height: 14.4px;
+}
+.pendingOrdersCont {
+  width: 331px;
+  height: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.pendingPrice {
+  color: #1a181e;
+  font-family: Galano Grotesque;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px; /* 118.75% */
+}
+
+.pendingOrders {
+  color: #146eb4;
+  font-family: Galano Grotesque;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  text-decoration-line: underline;
+}
+
+.pendingIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.pendingOrdersBox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.transactionMain {
+  width: 1152px;
+  height: 548px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.transactionCont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.transactionTxt {
+  color: #1a181e;
+  font-family: Galano Grotesque;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px; /* 140% */
+}
+.payoutsRefundCont {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.activeCont,
+.inactiveCont {
+  display: flex;
+  padding: 6px 16px;
+  align-items: center;
+  gap: 6px;
+
+  border-radius: 40px;
+}
+.activeCont {
+  background: #146eb4;
+}
+
+.inactiveCont {
+  background: #e6e6e6;
+}
+
+.activeTxt,
+.inactiveTxt {
+  color: white;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+.activeTxt {
+  color: white;
+}
+.inactiveTxt {
+  color: #808080;
+}
+
+.allTransactionCont {
+  display: flex;
+  width: 1152px;
+  height: 482px;
+  padding: 12px 12px 8px 12px;
+  flex-direction: column;
+  align-items: flex-end;
+  border-radius: 8px;
+  background: white;
+
+  box-shadow: 0px 2px 6px 0px rgba(26, 24, 30, 0.04);
+}
+.bottomContainer {
+  width: 1128px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.bottomBar {
+  width: 1128px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.bottomInpCont {
+  width: 248px;
+  height: 40px;
+  display: flex;
+  padding: 10px 16px;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  background: white;
+}
+.bottomInp {
+  color: #999;
+  font-family: Galano Grotesque;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.bottomInpIcon {
+  width: 14px;
+  height: 14px;
+}
+
+.sortDownloadCont {
+  width: 131px;
+  height: 36px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+}
+
+.sortCont {
+  width: 79px;
+  height: 36px;
+  display: flex;
+  padding: 6px 12px;
+  align-items: center;
+  gap: 6px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 2px;
+}
+
+.sortTxt {
+  color: #4d4d4d;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.sortIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.downloadCont {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 2px;
+}
+
+.downloadIcon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}

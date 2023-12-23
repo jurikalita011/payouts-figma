@@ -1,0 +1,40 @@
+.tableCont {
+  width: 1108px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thead {
+  padding: 10px 10px;
+
+  border-radius: 4px;
+  background: #f2f2f2;
+}
+
+.headingText {
+  color: #4d4d4d;
+  text-align: right;
+  font-family: Galano Grotesque;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+
+.txt,
+.txt2 {
+  text-align: right;
+  font-family: Galano Grotesque;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 20px; /* 142.857% */
+}
+.txt {
+  color: #4d4d4d;
+  font-weight: 400;
+}
+.txt2 {
+  color: #146eb4;
+  font-weight: 500;
+}
