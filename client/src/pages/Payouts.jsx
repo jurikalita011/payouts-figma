@@ -18,7 +18,7 @@ export const Payouts = () => {
           <Box className={styles.topRightCont}>
             <Box className={styles.topQcont}>
               <Box className={styles.qCont}>
-                <Image className={styles.topQIcon} src="help.png" />
+                <Image className={styles.topQIcon} src="Help.png" />
                 <Text className={styles.topQText}>How it works</Text>
               </Box>
             </Box>
@@ -35,7 +35,7 @@ export const Payouts = () => {
             </Box>
             <Box className={styles.topMenuCont}>
               <Box className={styles.menuCont}>
-                <Image className={styles.menuIcon} src="menu.png" />
+                <Image className={styles.menuIcon} src="Menu.png" />
                 <Image className={styles.menuIcon} src="polygon.png" />
               </Box>
             </Box>
@@ -83,7 +83,7 @@ export const Payouts = () => {
                 <Box className={styles.total2Cont}>
                   <Box className={styles.pendingCont}>
                     <Text className={styles.pendingTxt}>Amount Pending</Text>
-                    <Image className={styles.pendingIcon2} src="help.png" />
+                    <Image className={styles.pendingIcon2} src="Help.png" />
                   </Box>
                   <Box className={styles.pendingOrdersCont}>
                     <Text className={styles.pendingPrice}>₹92,312.20</Text>
@@ -103,7 +103,7 @@ export const Payouts = () => {
                 <Box className={styles.total2Cont}>
                   <Box className={styles.pendingCont}>
                     <Text className={styles.pendingTxt}>Amount Processed</Text>
-                    <Image className={styles.pendingIcon2} src="help.png" />
+                    <Image className={styles.pendingIcon2} src="Help.png" />
                   </Box>
                   <Box className={styles.pendingOrdersCont}>
                     <Text className={styles.pendingPrice}>₹23,92,312.19</Text>
