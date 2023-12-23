@@ -402,7 +402,7 @@
   padding: 6px 16px;
   align-items: center;
   gap: 6px;
-
+  cursor: pointer;
   border-radius: 40px;
 }
 .activeCont {
