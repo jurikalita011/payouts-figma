@@ -1,5 +1,4 @@
 import {
-  Box,
   Table,
   TableContainer,
   Tbody,
@@ -65,56 +64,54 @@ export const Table1 = () => {
     },
   ];
   return (
-    <Box overflowY="auto" maxHeight="375px" marginTop="10px">
-      <TableContainer className={styles.tableCont}>
-        <Table size="lg">
-          <Thead className={styles.thead}>
-            <Tr>
-              <Th>
-                <Text className={styles.headingText}></Text>
-              </Th>
-              <Th>
-                <Text className={styles.headingText}>Status</Text>
-              </Th>
-              <Th isNumeric>
-                <Text className={styles.headingText}>Transaction ID</Text>
-              </Th>
-              <Th>
-                <Text className={styles.headingText}>Order amount</Text>
-              </Th>
-              <Th>
-                <Text className={styles.headingText}>Transaction fees</Text>
-              </Th>
-              <Th>
-                <Text className={styles.headingText}>Total</Text>
-              </Th>
-            </Tr>
-          </Thead>
+    <TableContainer className={styles.tableCont}>
+      <Table size="lg">
+        <Thead className={styles.thead}>
+          <Tr>
+            <Th>
+              <Text className={styles.headingText}></Text>
+            </Th>
+            <Th>
+              <Text className={styles.headingText}>Status</Text>
+            </Th>
+            <Th isNumeric>
+              <Text className={styles.headingText}>Transaction ID</Text>
+            </Th>
+            <Th>
+              <Text className={styles.headingText}>Order amount</Text>
+            </Th>
+            <Th>
+              <Text className={styles.headingText}>Transaction fees</Text>
+            </Th>
+            <Th>
+              <Text className={styles.headingText}>Total</Text>
+            </Th>
+          </Tr>
+        </Thead>
 
-          <Tbody>
-            {dataSet.map((data, index) => (
-              <Tr key={index}>
-                <Td></Td>
-                <Td>
-                  <Text className={styles.txt}>{data["Status"]}</Text>
-                </Td>
-                <Td isNumeric>
-                  <Text className={styles.txt}>{data["Transaction ID"]}</Text>
-                </Td>
-                <Td>
-                  <Text className={styles.txt}>{data["Order amount"]}</Text>
-                </Td>
-                <Td>
-                  <Text className={styles.txt}>{data["Transaction fees"]}</Text>
-                </Td>
-                <Td>
-                  <Text className={styles.txt}>{data["Total"]}</Text>
-                </Td>
-              </Tr>
-            ))}
-          </Tbody>
-        </Table>
-      </TableContainer>
-    </Box>
+        <Tbody>
+          {dataSet.map((data, index) => (
+            <Tr key={index}>
+              <Td></Td>
+              <Td>
+                <Text className={styles.txt3}>{data["Status"]}</Text>
+              </Td>
+              <Td isNumeric>
+                <Text className={styles.txt}>{data["Transaction ID"]}</Text>
+              </Td>
+              <Td>
+                <Text className={styles.txt3}>{data["Order amount"]}</Text>
+              </Td>
+              <Td>
+                <Text className={styles.txt3}>{data["Transaction fees"]}</Text>
+              </Td>
+              <Td>
+                <Text className={styles.txt}>{data["Total"]}</Text>
+              </Td>
+            </Tr>
+          ))}
+        </Tbody>
+      </Table>
+    </TableContainer>
   );
 };

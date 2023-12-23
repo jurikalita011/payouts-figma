@@ -11,7 +11,7 @@ export const Payouts = () => {
     setActive(!isActive);
   };
   return (
-    <Box className={styles.cont} bg={"#fafafa"}>
+    <Box className={styles.cont}>
       <Box display={"flex"}>
         <Sidebar />
         <Box className={styles.right}>
@@ -174,7 +174,14 @@ export const Payouts = () => {
                     </Box>
                   </Box>
                 </Box>
-                {isActive ? <Table1 /> : <Table2 />}
+                <Box
+                  overflowY="auto"
+                  maxHeight="375px"
+                  width={"100%"}
+                  marginTop="10px"
+                >
+                  {isActive ? <Table1 /> : <Table2 />}
+                </Box>
               </Box>
             </Box>
           </Box>

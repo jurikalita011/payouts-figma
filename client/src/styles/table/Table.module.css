@@ -1,5 +1,5 @@
 .tableCont {
-  width: 1108px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,7 +23,8 @@
 }
 
 .txt,
-.txt2 {
+.txt2,
+.txt3 {
   text-align: right;
   font-family: Galano Grotesque;
   font-size: 14px;
@@ -37,4 +38,8 @@
 .txt2 {
   color: #146eb4;
   font-weight: 500;
+}
+.txt3 {
+  color: #1a181e;
+  font-weight: 400;
 }
