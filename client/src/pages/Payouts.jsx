@@ -170,12 +170,7 @@ export const Payouts = () => {
                     </Box>
                   </Box>
                 </Box>
-                <Box
-                  overflowY="auto"
-                  maxHeight="375px"
-                  width={"100%"}
-                  marginTop="10px"
-                >
+                <Box maxHeight="375px" width={"100%"} marginTop="10px">
                   {isActive ? <Table1 /> : <Table2 />}
                 </Box>
               </Box>

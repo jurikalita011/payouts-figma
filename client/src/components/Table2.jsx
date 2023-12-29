@@ -59,7 +59,7 @@ export const Table2 = () => {
 
   return (
     <TableContainer className={styles.tableCont}>
-      <Table size="lg">
+      <Table>
         <Thead className={styles.thead}>
           <Tr>
             <Th>
@@ -82,7 +82,7 @@ export const Table2 = () => {
 
         <Tbody>
           {pendingData.map((data, index) => (
-            <Tr key={index}>
+            <Tr key={index} height={5}>
               <Td>
                 <Text className={styles.txt2}>{data["Order ID"]}</Text>
               </Td>

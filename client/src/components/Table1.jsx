@@ -65,10 +65,10 @@ export const Table1 = () => {
   ];
   return (
     <TableContainer className={styles.tableCont}>
-      <Table size="lg">
+      <Table size={"sm"}>
         <Thead className={styles.thead}>
           <Tr>
-            <Th>
+            <Th padding={5}>
               <Text className={styles.headingText}></Text>
             </Th>
             <Th>
@@ -91,7 +91,7 @@ export const Table1 = () => {
 
         <Tbody>
           {dataSet.map((data, index) => (
-            <Tr key={index} className={styles.tr}>
+            <Tr key={index} height={12}>
               <Td></Td>
               <Td>
                 <Text className={styles.txt3}>{data["Status"]}</Text>
