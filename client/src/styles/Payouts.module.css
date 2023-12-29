@@ -131,14 +131,14 @@
 }
 
 .monthCont {
-  width: 137px;
+  width: 120px;
   height: 36px;
   border-radius: 4px;
   background: white;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 1px solid rgb(208, 206, 206);
 }
 
 .monthTxt {
@@ -223,7 +223,6 @@
 }
 .cost {
   color: white;
-  font-family: Galano Grotesque;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
@@ -343,7 +342,6 @@
 
 .pendingPrice {
   color: #1a181e;
-  font-family: Galano Grotesque;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
