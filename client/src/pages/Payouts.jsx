@@ -155,11 +155,7 @@ export const Payouts = () => {
                       className={styles.bottomInpIcon}
                       src="searchBtm.png"
                     />
-                    <Input
-                      variant={"unstyled"}
-                      className={styles.bottomInp}
-                      value={"Order ID or transaction ID"}
-                    />
+                    <Input variant={"unstyled"} className={styles.bottomInp} />
                   </Box>
                   <Box className={styles.sortDownloadCont}>
                     <Box className={styles.sortCont}>

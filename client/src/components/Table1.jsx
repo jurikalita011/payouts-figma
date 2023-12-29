@@ -91,7 +91,7 @@ export const Table1 = () => {
 
         <Tbody>
           {dataSet.map((data, index) => (
-            <Tr key={index}>
+            <Tr key={index} className={styles.tr}>
               <Td></Td>
               <Td>
                 <Text className={styles.txt3}>{data["Status"]}</Text>

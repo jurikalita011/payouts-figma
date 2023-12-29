@@ -11,11 +11,8 @@ export const Sidebar = () => {
     { icon: "marketing.png", text: "Marketing" },
     { icon: "analytics.png", text: "Analytics" },
     { icon: "payouts.png", text: "Payouts" },
-    { icon: "tools.png", text: "Tools" },
     { icon: "discounts.png", text: "Discounts" },
     { icon: "audience.png", text: "Audience" },
-    { icon: "affiliates.png", text: "Affiliates" },
-    { icon: "vendors.png", text: "Vendors" },
     { icon: "appearance.png", text: "Appearance" },
     { icon: "plugins.png", text: "Plugins" },
   ];

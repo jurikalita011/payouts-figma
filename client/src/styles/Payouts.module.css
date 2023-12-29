@@ -1,6 +1,6 @@
 .cont {
   width: 100%;
-  height: 922px;
+  /* height: 922px; */
   background-color: #fafafa;
 }
 .right {
@@ -178,23 +178,13 @@
 }
 .total11 {
   height: 154px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .total1 {
   padding: 20px 20px 0px 20px;
   height: 118px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  border-radius: 5px;
-}
-.total2,
-.total3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-  flex: 1 0 0;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  border-radius: 5px;
-  background-color: white;
+
+  border-radius: 5px 5px 0px 0px;
 }
 
 .net {
@@ -288,13 +278,26 @@
   font-weight: 500;
 }
 
+.total2,
+.total3 {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
+  border-radius: 8px;
+  background: white;
+
+  box-shadow: 0px 2px 6px 0px rgba(26, 24, 30, 0.04);
+}
+
 .total2Cont {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
   align-self: stretch;
-  padding: 20px;
 }
 
 .pendingCont {
@@ -331,7 +334,6 @@
   height: 14.4px;
 }
 .pendingOrdersCont {
-  width: 331px;
   height: 38px;
   display: flex;
   justify-content: space-between;
@@ -366,7 +368,7 @@
 .pendingOrdersBox {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 0px;
 }
 
 .transactionMain {
