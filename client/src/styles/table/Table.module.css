@@ -43,7 +43,23 @@
   color: #1a181e;
   font-weight: 400;
 }
-.tr {
+
+.iconBoxp {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+  gap: -1px;
+  flex: 1 0 0;
+}
+
+.iconBoxpp {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.iconp {
   height: 10px;
-  border: 2px solid pink;
+  width: 10px;
 }
