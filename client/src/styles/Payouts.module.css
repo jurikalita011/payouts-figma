@@ -21,11 +21,11 @@
 }
 
 .topQcont {
+  width: 360px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 16px;
-  width: 32.5%;
 }
 
 .qCont {
@@ -56,13 +56,14 @@
 
 .topSearchCont {
   background: #f2f2f2;
+  border-radius: 6px;
   display: flex;
-  width: 360px;
+  width: 430px;
   padding: 9px 0px;
   align-items: center;
-  gap: 0px;
+  gap: 8px;
+  flex-shrink: 0;
   align-self: stretch;
-  border-radius: 6px;
 }
 .searchBtn {
   border: none;
