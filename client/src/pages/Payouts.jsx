@@ -18,7 +18,7 @@ export const Payouts = () => {
           <Box className={styles.topRightCont}>
             <Box className={styles.topQcont}>
               <Box className={styles.qCont}>
-                <Image className={styles.topQIcon} src="Help.png" />
+                <Image className={styles.topQIcon} src="help.svg" />
                 <Text className={styles.topQText}>How it works</Text>
               </Box>
             </Box>
@@ -55,7 +55,7 @@ export const Payouts = () => {
                   <Box className={styles.net}>
                     <Box className={styles.nextPay}>
                       <Text className={styles.nextPayTxt}>Next Payout</Text>
-                      <Image className={styles.nextIcon} src="helpWh.png" />
+                      <Image className={styles.nextIcon} src="helpWh.svg" />
                     </Box>
                     <Box className={styles.price}>
                       <Text className={styles.cost}>₹2,312.23</Text>
@@ -84,7 +84,7 @@ export const Payouts = () => {
                 <Box className={styles.total2Cont}>
                   <Box className={styles.pendingCont}>
                     <Text className={styles.pendingTxt}>Amount Pending</Text>
-                    <Image className={styles.pendingIcon2} src="Help.png" />
+                    <Image className={styles.pendingIcon2} src="help.svg" />
                   </Box>
                   <Box className={styles.pendingOrdersCont}>
                     <Text className={styles.pendingPrice}>₹92,312.20</Text>
@@ -104,7 +104,7 @@ export const Payouts = () => {
                 <Box className={styles.total2Cont}>
                   <Box className={styles.pendingCont}>
                     <Text className={styles.pendingTxt}>Amount Processed</Text>
-                    <Image className={styles.pendingIcon2} src="Help.png" />
+                    <Image className={styles.pendingIcon2} src="help.svg" />
                   </Box>
                   <Box className={styles.pendingOrdersCont}>
                     <Text className={styles.pendingPrice}>₹23,92,312.19</Text>
