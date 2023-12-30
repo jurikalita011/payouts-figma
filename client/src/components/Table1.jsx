@@ -74,7 +74,7 @@ export const Table1 = () => {
               <Text className={styles.headingText}></Text>
             </Th>
             <Th>
-              <Text className={styles.headingText}>Status</Text>
+              <Text className={styles.headingText}></Text>
             </Th>
             <Th isNumeric>
               <Text className={styles.headingText}>Transaction ID</Text>
@@ -108,7 +108,7 @@ export const Table1 = () => {
                 </Box>
               </Td>
               <Td isNumeric>
-                <Text className={styles.txt4}>{data["Transaction ID"]}</Text>
+                <Text className={styles.txt}>{data["Transaction ID"]}</Text>
               </Td>
               <Td>
                 <Text className={styles.txt3}>{data["Order amount"]}</Text>
