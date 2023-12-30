@@ -1,4 +1,4 @@
-import { Box, Button, Image, Input, Text } from "@chakra-ui/react";
+import { Box, Button, Image, Input, Select, Text } from "@chakra-ui/react";
 import React, { useState } from "react";
 import styles from "../styles/Payouts.module.css";
 import { Sidebar } from "../components/Sidebar";
@@ -44,8 +44,9 @@ export const Payouts = () => {
             <Box className={styles.overView}>
               <Text className={styles.overViewTxt}>Overview</Text>
               <Box className={styles.monthCont}>
-                <Text className={styles.monthTxt}>This Month</Text>
-                <Image className={styles.chevronDownIcon} src="month.png" />
+                <Select placeholder="This Month">
+                  <option value="option1">Select date</option>
+                </Select>
               </Box>
             </Box>
             <Box className={styles.totals}>
@@ -142,7 +143,7 @@ export const Payouts = () => {
                         !isActive ? styles.activeTxt : styles.inactiveTxt
                       }
                     >
-                      Refunds (6)
+                      Refunds (2)
                     </Text>
                   </Box>
                 </Box>

@@ -1,5 +1,7 @@
 import React from "react";
 import {
+  Box,
+  Image,
   Table,
   TableContainer,
   Tbody,
@@ -87,7 +89,16 @@ export const Table2 = () => {
                 <Text className={styles.txt2}>{data["Order ID"]}</Text>
               </Td>
               <Td>
-                <Text className={styles.txt3}>{data["Status"]}</Text>
+                <Box className={styles.iconBoxp}>
+                  <Box className={styles.iconBoxpp}>
+                    {data["Status"] === "Processing" ? (
+                      <Image className={styles.iconp} src="grey.svg" />
+                    ) : (
+                      <Image className={styles.iconp} src="green.svg" />
+                    )}
+                    <Text className={styles.txt3}>{data["Status"]}</Text>
+                  </Box>
+                </Box>
               </Td>
               <Td isNumeric>
                 <Text className={styles.txt}>{data["Transaction ID"]}</Text>
