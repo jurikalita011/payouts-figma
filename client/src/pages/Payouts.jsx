@@ -64,7 +64,7 @@ export const Payouts = () => {
                         <Box className={styles.rightArrClCont}>
                           <Image
                             className={styles.rightArrowIcon}
-                            src="rightArrWh.png"
+                            src="rightArrWh.svg"
                           />
                         </Box>
                       </Box>
@@ -93,7 +93,7 @@ export const Payouts = () => {
                       <Box className={styles.rightArrClCont}>
                         <Image
                           className={styles.rightArrowIcon}
-                          src="rightArrBlue.png"
+                          src="rightArrBlue.svg"
                         />
                       </Box>
                     </Box>
@@ -161,12 +161,12 @@ export const Payouts = () => {
                   <Box className={styles.sortDownloadCont}>
                     <Box className={styles.sortCont}>
                       <Text className={styles.sortTxt}>Sort</Text>
-                      <Image className={styles.sortIcon} src="sort.png" />
+                      <Image className={styles.sortIcon} src="sort.svg" />
                     </Box>
                     <Box className={styles.downloadCont}>
                       <Image
                         className={styles.downloadIcon}
-                        src="download.png"
+                        src="download.svg"
                       />
                     </Box>
                   </Box>
