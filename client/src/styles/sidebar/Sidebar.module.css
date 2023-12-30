@@ -93,6 +93,7 @@
   height: 20px;
   flex-shrink: 0;
   column-fill: white;
+  opacity: 0.8;
 }
 
 .pagesTxt {
